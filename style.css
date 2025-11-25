@@ -1,0 +1,43 @@
+*{
+    padding:0px;
+    margin:0px;
+    color: rgb(0, 0, 0);
+}
+body{
+   background-color: rgb(7, 152, 68);
+   text-align:center;
+   
+}
+
+#hel{
+     display:flex;
+     align-items:center;
+   justify-content:center;
+}
+#game{
+    
+     display:flex;
+     justify-content: center;
+     flex-wrap:wrap;
+     gap:20px;
+     height: 50vh;
+     width:400px;;
+     align-items: center;
+     
+     margin-top:20vh;
+
+     
+}
+.p{
+   height: 100px;
+   width:100px;
+   background-color: brown;
+   border-radius:25px;
+   color: yellow;
+}
+
+#res{
+   color: white;
+   background-color: black;
+   margin-top: 30px;
+}
