@@ -19,6 +19,7 @@ let win=[
 game.forEach((u)=>{
  
     u.addEventListener("click",() =>{
+    if (u.innerText !== "") return;
       moves++;
         if(turn0){
           u.innerText="X";
