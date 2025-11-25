@@ -3,7 +3,7 @@ let res=document.querySelector("#res");
 let turn0=true;
 let winner=document.querySelector("#win");
 
-let win=[
+let winpat=[
     [0,1,2],
     [0,3,6],
     [0,4,8],
@@ -30,7 +30,7 @@ game.forEach((u)=>{
           turn0=true;
         }
         console.dir(u.innerText)
-        for(let i of win){
+        for(let i of winpat){
           let p1=game[i[0]].innerText;
           let p2= game[i[1]].innerText;
           let p3=game[i[2]].innerText;
